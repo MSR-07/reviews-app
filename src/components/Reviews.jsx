@@ -35,7 +35,7 @@ const Reviews = () => {
     };
     return (
         <>
-        <article className='bg-white py-6 px-8 rounded-sm shadow-sm transition-all ease-linear duration-[0.3s] text-center '>
+        <article className='bg-white py-6 px-8 rounded-sm shadow-sm transition-all ease-linear duration-[0.3s] text-center'>
         <div className='img-container relative w-[150px] h-[150px] rounded-full my-0 mx-auto mb-6'>
         <img src={image} alt={image} className='w-full block h-full object-cover rounded-full relative'/>
         <span className='absolute top-0 left-0 w-10 h-10 grid place-items-center rounded-full translate-y-[20%] bg-[#49a6e9] text-white '>

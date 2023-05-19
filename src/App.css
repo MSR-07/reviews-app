@@ -53,6 +53,18 @@ Global Styles
 ===============
 */
 
+.aspect-ratio-2x2 {
+  @apply relative;
+}
+
+.card {
+  @apply bg-white;
+}
+
+.card .btn:hover {
+  @apply bg-black;
+}
+
 *,
 ::after,
 ::before {
@@ -61,8 +73,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -152,10 +164,8 @@ main {
   box-shadow: var(--dark-shadow);
 }
 
-
-
 .img-container::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: var(--clr-primary-5);
@@ -164,7 +174,6 @@ main {
   right: -0.5rem;
   border-radius: 50%;
 }
-
 
 .prev-btn:hover,
 .next-btn:hover {
